@@ -1,8 +1,12 @@
+// ------------------------------------------------
+// ----------------header and footer---------------
+// ------------------------------------------------
+
 class MyHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <div class="menu-bar">
-        <div class="menu-item" align="center">
+        <div class="menu-item">
             <a href="index.html">Home</a>
 
             <div class="drop-container">
@@ -179,3 +183,29 @@ class MyFooter extends HTMLElement {
     }
 }
 customElements.define('my-footer', MyFooter)
+
+
+
+
+// ------------------------------------------------
+// ----------------Photos and videos---------------
+// ------------------------------------------------
+
+let photo = document.getElementById("e-photo")
+let video = document.getElementById("e-video")
+let photos = document.querySelector(".event-img-slider")
+let videos = document.querySelector(".vid-slider")
+
+video.addEventListener('click', ()=>{
+    photo.classList.replace('e-active', 'e-disable')
+    video.classList.replace('e-disable', 'e-active')
+    photos.style.display="none";
+    videos.style.display="flex";
+    
+})
+photo.addEventListener('click', ()=>{
+    video.classList.replace('e-active', 'e-disable')
+    photo.classList.replace('e-disable', 'e-active')
+    videos.style.display="none";
+    photos.style.display="flex";
+})
