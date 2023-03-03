@@ -8,6 +8,7 @@
 }
 body{
     background-image: url("https://img.freepik.com/free-photo/pencil-sketch-texture_1409-1476.jpg");
+    background-attachment: fixed;
 }
 /* ---------------------------------------------------------- */
 /* ----------------------Global classes---------------------- */
@@ -1251,17 +1252,19 @@ h4{
 
 .footer-zone {
     display: flex;
+
     justify-content: space-around;
     /* width: 100%; */
     margin-top: 30px;
-
+    height: 450px;
     background-color: #1a3c40;
     padding: 75px;
+    
 }
-@media screen and (max-width: 700px) {
-    .footer-zone{
-        flex-direction: column;
-    }
+.footer-up{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
 }
 .foot-1 {
     /* width: 28%; */
@@ -1297,8 +1300,8 @@ h4{
 
 .map iframe {
     margin-top: 0.1cm;
-    width: 550px;
-    height: 350px;
+    width: 500px;
+    height: 315px;
 
 
 }
