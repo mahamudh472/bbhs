@@ -124,7 +124,7 @@ class MyFooter extends HTMLElement {
         this.innerHTML = `
         
         <div class="footer-zone">
-
+        <div class="footer-up">
         <div class="school-detailes">
             <div class="name">
                 <h2>Bhushir Bandar High School</h2>
@@ -141,16 +141,18 @@ class MyFooter extends HTMLElement {
 
             </div>
         </div>
-
         <div class="foot-2">
             <div class="map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d449.11524523210414!2d88.74389960747531!3d25.77314104652358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e4a9d178f937e1%3A0x4253183c2a57801a!2sVushirbondor%20High%20School!5e0!3m2!1sen!2sbd!4v1668088722507!5m2!1sen!2sbd"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                     style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
+        
 
+        
+        </div>
         <div class="foot-1">
             <h3>Important Links</h3>
             <a href="https://dhakaeducationboard.gov.bd/">≻ ঢাকা শিক্ষাবোর্ড</a><br>
