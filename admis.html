@@ -1,62 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=1000px, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>bbhs.edu.bd</title>
     <link rel="stylesheet" href="style/style.css">
     <style>
-        table{
+        table {
             width: 90%;
-             border: 1px solid black;
-             border-collapse: collapse;
-             margin-left: 5%;
-             margin-right: 5%;
-             height: 100px;
-              
-             
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-left: 5%;
+            margin-right: 5%;
+            height: 100px;
+
+
         }
 
-        th,td{
+        th,
+        td {
             border: 1px solid rgb(43, 247, 43);
-            
+
         }
-        td{
+
+        td {
             color: white;
             background-color: blueviolet;
         }
-        th{
+
+        th {
             color: antiquewhite;
             background-color: black;
         }
     </style>
 </head>
-<body >
- <my-header></my-header>
 
-    <div class="admission-container">
-        <table collapse="1" class="admis-table">
-            <tr>
-                <th>SL</th>
-                <th>Title</th>
-                <th>Circular Date</th>
-                <th> Apply Start Date</th>
-                <th>Apply End Date</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Offline Aplication Form 2023</td>
-                <td> Sunday, October 10, 2022</td>
-                <td> Sunday,  November 10, 2022</td>
-                <td>Sunday, December 10, 2022</td>
+<body>
+    <div class="all-body-con">
+        <my-header></my-header>
 
-            </tr>
+        <div class="admission-container">
+            <table collapse="1" class="admis-table">
+                <tr>
+                    <th>SL</th>
+                    <th>Title</th>
+                    <th>Circular Date</th>
+                    <th> Apply Start Date</th>
+                    <th>Apply End Date</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Offline Aplication Form 2023</td>
+                    <td> Sunday, October 10, 2022</td>
+                    <td> Sunday, November 10, 2022</td>
+                    <td>Sunday, December 10, 2022</td>
+
+                </tr>
 
 
-        </table>
+            </table>
+        </div>
+        <my-footer></my-footer>
     </div>
- <my-footer></my-footer>
- 
-</body><script src="js/main.js"></script>
+
+</body>
+<script src="js/main.js"></script>
+
 </html>

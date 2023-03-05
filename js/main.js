@@ -5,12 +5,34 @@
 class MyHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
+        <div class="web-top">
+            <div class="social-logos">
+                <a href="" class="social-links">
+                    <img class="social-icon" src="gallery/facebook.png" alt="">
+                </a><a href="" class="social-links"></a><a href="" class="social-links"></a><a href="" class="social-links"></a>
+                <a href="" class="social-links">
+                    <img class="social-icon" src="gallery/twitter.png" alt="">
+                </a><a href="" class="social-links"></a><a href="" class="social-links"></a><a href="" class="social-links"></a>
+                <a href="" class="social-links">
+                    <img class="social-icon" src="gallery/youtube.png" alt="">
+                </a><a href="" class="social-links"></a><a href="" class="social-links"></a><a href="" class="social-links"></a>
+                <a href="" class="social-links">
+                    <img class="social-icon" src="gallery/linkedin (1).png" alt="">
+                </a><a href="" class="social-links"></a><a href="" class="social-links"></a><a href="" class="social-links"></a>
+            </div>
+            <div class="top-right">
+                <input type="button" class="language" value="বাংলা সংস্করণ">
+                <input type="text" name="0" id="search">
+                <button id="search-btn"><i class="fa fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+        <hr class="nav-devider">
         <div class="menu-bar">
         <div class="menu-item">
             <a href="index.html">Home</a>
 
             <div class="drop-container">
-                <a href="#">About ∇</a>
+                <a >About ∇</a>
 
                 <div class="drop-content">
                     <a href="about.html">About us</a>
@@ -20,15 +42,14 @@ class MyHeader extends HTMLElement {
                     <a href="mv.html">Mission & vision</a>
                     <hr>
                     <a href="contact.html">Contact us</a>
+                    <hr>
+                    <a href="tindex.html">About Teachers</a>
                 </div>
             </div>
 
-            <div class="drop-container">
-                <a href="tindex.html">About Teachers</a>
-            </div>
           
             <div class="drop-container">
-                <a href="#">Administration ∇</a>
+                <a >Administration ∇</a>
 
                 <div class="drop-content">
                     <a href="#">Achivment</a>
@@ -40,7 +61,7 @@ class MyHeader extends HTMLElement {
             </div>
 
             <div class="drop-container">
-                <a href="#">Results ∇</a>
+                <a >Results ∇</a>
                 <div class="drop-content">
                     <a href="#">Model Test </a>
                     <hr>
@@ -51,7 +72,7 @@ class MyHeader extends HTMLElement {
             </div>
 
             <div class="drop-container">
-                <a href="#">Admision ∇</a>
+                <a >Admision ∇</a>
                 <div class="drop-content">
                     <a href="admis.html">Admission Circular</a>
                 </div>
@@ -59,7 +80,7 @@ class MyHeader extends HTMLElement {
 
 
             <div class="drop-container">
-                <a href="#">Academics ∇</a>
+                <a >Academics ∇</a>
                 <div class="drop-content">
                     <a href="#">Rules & Regulation</a>
                     <hr>
@@ -71,17 +92,13 @@ class MyHeader extends HTMLElement {
                 </div>
             </div>
 
-            <div class="drop-container">
-                <a href="#">Gallery ∇</a>
-                <div class="drop-content">
-                    <a href="#">Photo Gallery</a>
-                    <hr>
-                    <a href="#">Video Gallery</a>
-                </div>
-            </div>
+            
+                <a href="#gallery">Gallery</a>
+                
+            
 
             <div class="drop-container">
-                <a href="#">Facilities ∇</a>
+                <a >Facilities ∇</a>
                 <div class="drop-content">
                     <a href="#">Medical</a>
                     <hr>
@@ -89,14 +106,7 @@ class MyHeader extends HTMLElement {
                 </div>
             </div>
 
-            <div class="drop-container">
-                <a href="#">Department ∇</a>
-                <div class="drop-content">
-                    <a href="#">Science</a>
-                    <hr>
-                    <a href="#">Humanities</a>
-                </div>
-            </div>
+            
         </div>
 
     </div> <hr>
