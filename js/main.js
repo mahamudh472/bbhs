@@ -93,7 +93,7 @@ class MyHeader extends HTMLElement {
             </div>
 
             
-                <a href="#gallery">Gallery</a>
+                <a href="index.html#gallery">Gallery</a>
                 
             
 
